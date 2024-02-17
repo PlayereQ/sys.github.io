@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/server.png" type="image/x-icon">
+    <link rel="stylesheet" href="/subpages/form.css"/>
+    <title>Pytania</title>
+</head>
+<body>
+    
+    <a href="/main/index.html"><img src="/images/menu.png" alt=""></a>
+
+ <div class="form">
+    <H1>Zadaj nam pytanie</H1>
+    <hr>
+<form action="" method="post">
+<ul>
+   <li> <label for="type" ><p>Typ pytania</p></label></li>
+    <li>    
+ <select id="type">
+   <option value="technical">Techniczne</option>
+   <option value="error">Znalazłem/Znalazłam błąd</option>
+   <option value="other">Inne</option>
+ </select>
+     </li>
+ <li><input type="email" placeholder=" Twój adres e-mail"></li>
+ <label for="msg"><p>Twoja wiadomość:</p>
+<li> <textarea name="msg"  cols="50" rows="8"></textarea>
+</label>
+</li>
+
+</ul>
+
+</form>
+<hr >
+<button>Wyślij</button> 
+</div>  
+</body>
+</html>
